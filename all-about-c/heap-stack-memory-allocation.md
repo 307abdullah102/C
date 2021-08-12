@@ -80,6 +80,7 @@ When you are dealing with relatively small variables that only need to persist a
 
 
 ***Stack*** is very fast (do not have to deallocate variables - space is managed efficiently by CPU)
+
 ***Heap*** 
 - variables can be accessed globally - no limit on memory size 
 
