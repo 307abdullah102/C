@@ -25,17 +25,17 @@ Local variables have automatic storage duration by default.
 - extern int numb; -- The value of numb can now be accessed and modified by the module in which the preceding declaration appears.
 - Other modules can also access the value of numb.
 
-#include <stdio.h>
-int i = 5;
-void foo (void);
-int main(){
-printf("%i\n",i);
-foo();
-printf("%i", i);
-return 0;
-}
-extern int i ;
-void foo(void){
-    i = 100;
-}
+`#include <stdio.h>`
+`int i = 5;`
+`void foo (void);`
+`int main(){`
+`printf("%i\n",i);`
+`foo();`
+`printf("%i", i);`
+`return 0;`
+`}`
+`extern int i ;`
+`void foo(void){`
+`    i = 100;`
+`}`
 
