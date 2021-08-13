@@ -12,3 +12,11 @@
 
 ![DataPack](https://drive.google.com/file/d/1SD-AkdDzh78b1MwP2m1N5wbWha3Eua_X/view?usp=sharing)
  
+ ## goto Statement
+ - goto statement causes program control to jump to a particular line of code in your program.
+ - This branch is made immidiately and unconditionally upon execution of the goto. 
+ - to identify where in the program the branch is to be made, a label is needed. 
+ ***
+goto.c
+***
+
