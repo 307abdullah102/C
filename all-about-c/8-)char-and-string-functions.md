@@ -48,7 +48,7 @@ ssize_t getline(char** buffer, size_t* size, FILE* stream);
 - Result will be often same (except for the added new line)
 - The puts is safe and simple, but not flexible as it does not give us an option of formatting our string. 
 
-## Formattin Functions
+## Formatting Functions
 
 **sprintf**
 
