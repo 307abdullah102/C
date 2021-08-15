@@ -8,13 +8,18 @@
 **Conditions**
 
 - The C preprocessor offers a feature known as conditional compilation 
-- It is often used to create one program that can be compiled to run on different computer systems.
-**#ifdef** 
+- It is often used to create one program that can be compiled to run on different computer systems. 
+
+
+ **#ifdef** 
 - This directive checks whether an identifier is currently defined 
+
 **#ifndef**
 - This directive checks to see if an identifier is not currently defined. 
+
 **#if**
 - #if **some expression** --- the **some expression** must be integer expression that does not contain any increment, decrement, sizeof... 
+
 **#elif and #else**
 - The same usage as compiler code. 
 
@@ -33,4 +38,6 @@
 - The error directives causes the preprocessor to issue an error message that includes any text in the directive. 
 - Error message is a sequence of characters seperated by spaces. 
 	
+
+
 
